@@ -1,0 +1,16 @@
+{
+  "mt-grpo": {
+    "seconds": 293.5,
+    "tier123_greedy": 1.0,
+    "tier123_sampled": 0.9098958333333333,
+    "tier4_greedy": 0.0125,
+    "tier4_sampled": 0.009375
+  },
+  "taca": {
+    "seconds": 342.4,
+    "tier123_greedy": 1.0,
+    "tier123_sampled": 0.9036458333333334,
+    "tier4_greedy": 0.025,
+    "tier4_sampled": 0.0203125
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "overall": {
+    "credit": {
+      "frac_c_token_negative": 0.3,
+      "frac_flip": 0.275,
+      "frac_negative_gap": 0.075,
+      "mean_c_token": 0.04080342188257944,
+      "mean_c_traj": 0.08773254985536083,
+      "mean_gap": 1.5207459807555348,
+      "n_groups": 80
+    },
+    "retries": {
+      "mean_retries_correct": 0.09141274238227147,
+      "mean_retries_incorrect": 0.2938230383973289,
+      "n_after_error": 730,
+      "n_after_success": 1777,
+      "p_call_after_error": 0.6657534246575343,
+      "p_call_after_success": 0.4113674732695554
+    }
+  },
+  "per_tier": {
+    "1": {
+      "credit": {
+        "frac_c_token_negative": 0.1625,
+        "frac_flip": 0.1125,
+        "frac_negative_gap": 0.0875,
+        "mean_c_token": 0.11801165836360632,
+        "mean_c_traj": 0.12837541648616932,
+        "mean_gap": 1.8985937499999999,
+        "n_groups": 80
+      },
+      "exec_success": 0.6727272727272727,
+      "mean_calls": 0.515625,
+      "mean_errors": 0.16875,
+      "retries": {
+        "mean_retries_correct": 0.09595959595959595,
+        "mean_retries_incorrect": 0.10633484162895927,
+        "n_after_error": 108,
+        "n_after_success": 222,
+        "p_call_after_error": 0.6851851851851852,
+        "p_call_after_success": 0.03153153153153153
+      },
+      "sampled_reward": 0.309375,
+      "tool_use_rate": 0.403125
+    },
+    "2": {
+      "credit": {
+        "frac_c_token_negative": 0.4375,
+        "frac_flip": 0.3125,
+        "frac_negative_gap": 0.3,
+        "mean_c_token": 0.014206671369719263,
+        "mean_c_traj": 0.07233727108234525,
+        "mean_gap": 0.6885099206349208,
+        "n_groups": 80
+      },
+      "exec_success": 0.7220113851992409,
+      "mean_calls": 1.646875,
+      "mean_errors": 0.4578125,
+      "retries": {
+        "mean_retries_correct": 0.08917197452229299,
+        "mean_retries_incorrect": 0.4754601226993865,
+        "n_after_error": 293,
+        "n_after_success": 761,
+        "p_call_after_error": 0.726962457337884,
+        "p_call_after_success": 0.39421813403416556
+      },
+      "sampled_reward": 0.490625,
+      "tool_use_rate": 0.9125
+    },
+    "3": {
+      "credit": {
+        "frac_c_token_negative": 0.3,
+        "frac_flip": 0.075,
+        "frac_negative_gap": 0.1875,
+        "mean_c_token": 0.05427502497047328,
+        "mean_c_traj": 0.05401256995098149,
+        "mean_gap": 1.7465396825396824,
+        "n_groups": 80
+      },
+      "exec_success": 0.7070347284060552,
+      "mean_calls": 1.7546875,
+      "mean_errors": 0.5140625,
+      "retries": {
+        "mean_retries_correct": 0.09047619047619047,
+        "mean_retries_incorrect": 0.3488372093023256,
+        "n_after_error": 329,
+        "n_after_success": 794,
+        "p_call_after_error": 0.6048632218844985,
+        "p_call_after_success": 0.5340050377833753
+      },
+      "sampled_reward": 0.328125,
+      "tool_use_rate": 0.85
+    }
+  }
+}
